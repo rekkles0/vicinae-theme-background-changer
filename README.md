@@ -7,11 +7,11 @@ A beautiful [Vicinae](https://github.com/vicinaehq/vicinae) extension for managi
 
 ## Features
 
-— Browse themes and wallpapers in a beautiful grid layout
-— Apply themes and wallpapers instantly
-— Filter by type (Themes / Wallpapers / All)
-— Pin your favorite wallpaper as default
-— Scans all theme directories automatically
+— Browse themes and wallpapers in a beautiful grid layout \
+— Apply themes and wallpapers instantly \
+— Filter by type (Themes / Wallpapers / All) \
+— Pin your favorite wallpaper as default \
+— Scans all theme directories automatically \
 
 ## Theme Locations
 
