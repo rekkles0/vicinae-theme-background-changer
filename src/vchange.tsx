@@ -127,7 +127,7 @@ export default function ThemeBackgroundChanger() {
 	async function applyTheme(theme: Theme) {
 		showToast({ style: Toast.Style.Animated, title: "Switching Theme", message: theme.name });
 		try {
-			await execAsync(`theme ${theme.name}`);
+			await execAsync(`omarchy-theme-set ${theme.name}`);
 			showToast({ style: Toast.Style.Success, title: "Theme Active", message: `Now using ${theme.name}` });
 			await loadData();
 		} catch (error) {
