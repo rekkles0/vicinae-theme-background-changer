@@ -10,7 +10,7 @@
   "author": "r3kkles",
   "contributors": [],
   "pastContributors": [],
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "commands": [
     {
       "name": "vchange",
@@ -18,7 +18,7 @@
       "subtitle": "Omarchy",
       "description": "Browse and apply themes and wallpapers for your Omarchy setup",
       "mode": "view",
-      "icon": "icon.png",
+      "icon": "assets/icon.png",
       "keywords": ["theme", "wallpaper", "background", "switch", "change"]
     }
   ],
