@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "omarchy-theme-changer",
+  "title": "Omarchy Theme Changer",
+  "description": "Browse and switch Omarchy themes and wallpapers in a beautiful grid interface",
+  "version": "1.0.0",
+  "categories": ["System", "Design Tools"],
+  "keywords": ["omarchy", "theme", "wallpaper", "background", "customization", "rice", "linux"],
+  "license": "MIT",
+  "author": "r3kkles",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "vchange",
+      "title": "Theme & Wallpaper Gallery",
+      "subtitle": "Omarchy",
+      "description": "Browse and apply themes and wallpapers for your Omarchy setup",
+      "mode": "view",
+      "keywords": ["theme", "wallpaper", "background", "switch", "change"]
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop",
+    "format": "biome format --write src",
+    "lint": "vici lint"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.16.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@biomejs/biome": "2.3.2"
+  }
+}

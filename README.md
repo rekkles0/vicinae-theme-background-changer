@@ -81,4 +81,4 @@ Add a `preview.png` to each theme's root directory for visual previews:
 
 ## 📄 License
 
-MIT © [r3kkles](https://github.com/r3kkles)
+MIT © [r3kkles](https://github.com/rekkles0)
